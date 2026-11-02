@@ -3,3 +3,4 @@ dist/
 .vercel/
 __pycache__/
 *.log
+public/server.py

@@ -1,0 +1,30 @@
+{
+  "name": "nrl-robot-simulator",
+  "version": "1.0.0",
+  "description": "NRL Robot Simulator with Vite frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "python3 server.py",
+    "start": "python3 server.py",
+    "install-deps": "pip install -r requirements.txt && npm install"
+  },
+  "dependencies": {
+    "three": "^0.128.0",
+    "chart.js": "^4.4.0",
+    "socket.io-client": "^4.5.4"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "keywords": [
+    "robot",
+    "nrl",
+    "simulator",
+    "vite"
+  ],
+  "author": "",
+  "license": "MIT"
+}
